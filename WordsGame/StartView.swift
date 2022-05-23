@@ -16,38 +16,18 @@ struct StartView: View {
     var body: some View {
         
         VStack{
-            Text("Words Game")
-                .padding()
-                .font(.largeTitle.bold())
-                .cornerRadius(16)
-                .frame(maxWidth: .infinity)
-                .background(Color("FirstPlayer"))
-                .foregroundColor(.white)
-                .padding(.top)
-                
             
-            TextField("Введиьте длинное слово",
-                      text: $bigWord)
-                .font(.title2)
-                .padding()
-                .background(.white)
-                .cornerRadius(12)
+            TitleText(text: "WordsGame")
+            
+            WordsTextFiled(word: $bigWord, placeholder: "Введите большое слово")
                 .padding(20)
                 .padding(.top, 32)
             
-            TextField("Игрок 1",
-                      text: $player1)
-                .font(.title2)
-                .padding()
-                .background(.white)
+            WordsTextFiled(word: $player1, placeholder: "Игрок 1")
                 .cornerRadius(12)
                 .padding(.horizontal, 20)
             
-            TextField("Игрок 2",
-                      text: $player2)
-                .font(.title2)
-                .padding()
-                .background(.white)
+            WordsTextFiled(word: $player2, placeholder: "Игрок 2")
                 .cornerRadius(12)
                 .padding(.horizontal, 20)
             
@@ -64,7 +44,6 @@ struct StartView: View {
                     .padding(.top, 250)
             }
 
-            
         }.background(Image("background"))
             
     }
