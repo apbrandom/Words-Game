@@ -23,6 +23,7 @@ struct StartView: View {
                 .frame(maxWidth: .infinity)
                 .background(Color("FirstPlayer"))
                 .foregroundColor(.white)
+                .padding(.top)
                 
             
             TextField("Введиьте длинное слово",
@@ -56,8 +57,11 @@ struct StartView: View {
                 Text("Старт")
                     .font(.title2)
                     .foregroundColor(.white)
-                p
+                    .padding(.horizontal, 64)
+                    .padding()
                     .background(Color("FirstPlayer"))
+                    .cornerRadius(40)
+                    .padding(.top, 250)
             }
 
             
