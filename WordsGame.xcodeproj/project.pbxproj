@@ -13,6 +13,7 @@
 		CB23D39A283BA6F9002EDC2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB23D399283BA6F9002EDC2B /* Preview Assets.xcassets */; };
 		CB23D3A2283BD325002EDC2B /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D3A1283BD325002EDC2B /* TitleText.swift */; };
 		CB23D3A4283BE4F9002EDC2B /* WordsTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D3A3283BE4F9002EDC2B /* WordsTextFiled.swift */; };
+		CB23D3A6283BEB16002EDC2B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D3A5283BEB16002EDC2B /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CB23D399283BA6F9002EDC2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB23D3A1283BD325002EDC2B /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		CB23D3A3283BE4F9002EDC2B /* WordsTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTextFiled.swift; sourceTree = "<group>"; };
+		CB23D3A5283BEB16002EDC2B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				CB23D392283BA6F7002EDC2B /* WordsGameApp.swift */,
-				CB23D394283BA6F7002EDC2B /* StartView.swift */,
+				CB23D3A8283BEB5A002EDC2B /* Views */,
 				CB23D3A0283BD2C6002EDC2B /* Components */,
 				CB23D396283BA6F9002EDC2B /* Assets.xcassets */,
 				CB23D398283BA6F9002EDC2B /* Preview Content */,
@@ -79,6 +81,15 @@
 				CB23D3A3283BE4F9002EDC2B /* WordsTextFiled.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CB23D3A8283BEB5A002EDC2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB23D394283BA6F7002EDC2B /* StartView.swift */,
+				CB23D3A5283BEB16002EDC2B /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				CB23D3A2283BD325002EDC2B /* TitleText.swift in Sources */,
 				CB23D393283BA6F7002EDC2B /* WordsGameApp.swift in Sources */,
 				CB23D3A4283BE4F9002EDC2B /* WordsTextFiled.swift in Sources */,
+				CB23D3A6283BEB16002EDC2B /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
