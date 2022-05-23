@@ -17,7 +17,7 @@ struct WordsTextFiled: View {
                   text: word)
             .font(.title2)
             .padding()
-            .background(.white)
+            .background(.brown)
             .cornerRadius(12)
     }
 }

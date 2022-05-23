@@ -50,9 +50,7 @@ struct StartView: View {
             .fullScreenCover(isPresented: $isShowedGame) {
                 GameView()
             }
-        
     }
-        
 }
 
 struct ContentView_Previews: PreviewProvider {
