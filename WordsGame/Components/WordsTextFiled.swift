@@ -17,8 +17,14 @@ struct WordsTextFiled: View {
                   text: word)
             .font(.title2)
             .padding()
-            .background(.brown)
+            .background(.white)
             .cornerRadius(12)
     }
 }
 
+
+struct Previews_WordsTextFiled_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}
